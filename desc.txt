@@ -13,8 +13,12 @@ Current behavior
 
 Expected behavior
    Error is still written to log
-   Execute those test classes that are well-formed and skip that are not.
+   Execute those test classes that are well-formed (have annotations over mwthods with right modifiers) and
+   skip execution for those that are not.
 
 
+
+The details are here
+https://github.com/SqAutoTestTeam/possiblejunit5bug.git
 
 
