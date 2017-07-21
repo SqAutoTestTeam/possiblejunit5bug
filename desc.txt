@@ -1,9 +1,9 @@
-
 Static method annotated with @BeforeEach ruins execution of the rest of tests.
 
+
 It is probable that I've encountered a bug related to execution of batch of tests.
-When one of these test classes has a static method annotated with @BeforeEach - the whole batch is skipped -
-no exception is thrown.  Although the case with Static method annotated with @BeforeEach is an error it must not
+When one of these test classes has a static method annotated with @BeforeEach - the whole batch is skipped.
+Although the case with Static method annotated with @BeforeEach it is an error, it must not
 ruin the rest of tests execution
 
 
